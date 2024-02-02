@@ -21,7 +21,7 @@ def rmvcmnt(t):
             else: t2+=l
         elif ((r=="*") and (l=="/")):fn2=1; t2+=" "
         r = l
-
+    #html
 
 
 
