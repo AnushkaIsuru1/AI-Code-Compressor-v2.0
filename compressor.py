@@ -13,7 +13,8 @@ def rmvcmnt(t):
             else: t1+=l
         elif (l=="\n"):fn1=1; t1+=l
         r = l
-
+    #css
+    r = ""
 
 
 
