@@ -10,6 +10,8 @@ def rmvcmnt(t):
     for l in t:
         if fn1:
 
+        elif (l=="\n"):fn1=1; t1+=l
+        r = l
 
 
 
