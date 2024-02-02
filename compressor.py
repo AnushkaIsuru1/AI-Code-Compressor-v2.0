@@ -17,7 +17,8 @@ def rmvcmnt(t):
     r = ""
     for l in t1:
         if fn2:
-
+            if((r=="/") and (l=="*")):fn2 = 0; t2 = t2[0:len(t2)-1]
+            else: t2+=l
         elif ((r=="*") and (l=="/")):fn2=1; t2+=" "
 
 
