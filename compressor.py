@@ -15,6 +15,8 @@ def rmvcmnt(t):
         r = l
     #css
     r = ""
+    for l in t1:
+
 
 
 
