@@ -16,7 +16,9 @@ def rmvcmnt(t):
     #css
     r = ""
     for l in t1:
+        if fn2:
 
+        elif ((r=="*") and (l=="/")):fn2=1; t2+=" "
 
 
 
