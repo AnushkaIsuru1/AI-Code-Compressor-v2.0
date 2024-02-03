@@ -29,7 +29,9 @@ def rmvcmnt(t):
             if (r1+r2+r3+l == "<!--"):fn = 0; t3 = t3[0:len(t3)-3]
             else:t3+=l
         elif (r2+r3+l=="-->"):fn=1
-
+        r1 = r2
+        r2 = r3
+        r3 = l
 
 
 
