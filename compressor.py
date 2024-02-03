@@ -38,6 +38,8 @@ def rmvcmnt(t):
     qut = 0
     cm=0
     lqut = ""
+    for a in t3:
+        if (php):              
 
 
 
