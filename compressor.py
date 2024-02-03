@@ -25,6 +25,9 @@ def rmvcmnt(t):
     fn = 1
     r1=r2=r3=t3=""
     for l in t2:
+        if fn:
+
+        elif (r2+r3+l=="-->"):fn=1
 
 
 
