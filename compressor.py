@@ -34,7 +34,10 @@ def rmvcmnt(t):
         r3 = l
     #php
     r1=r2=r3=r4=t4=""
-
+    php = 0
+    qut = 0
+    cm=0
+    lqut = ""
 
 
 
