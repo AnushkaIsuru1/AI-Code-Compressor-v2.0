@@ -45,6 +45,8 @@ def rmvcmnt(t):
                 else:t4+=a
             elif (a=="\n"):cm = 0;t4+=a
         else:t4+=a                
+        if (r1+r2+r3+r4+a=="<?php"):php=1
+        elif (php and (r4+a=="?>")):php=0
 
 
 
