@@ -40,7 +40,10 @@ def rmvcmnt(t):
     lqut = ""
     for a in t3:
         if (php):              
-
+            if not cm:
+                if ((not qut) and (a=="#")):cm=1
+                else:t4+=a
+            elif (a=="\n"):cm = 0;t4+=a
 
 
 
