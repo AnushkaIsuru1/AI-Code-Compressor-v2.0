@@ -22,7 +22,9 @@ def rmvcmnt(t):
         elif ((r=="*") and (l=="/")):fn2=1; t2+=" "
         r = l
     #html
-
+    fn = 1
+    r1=r2=r3=t3=""
+    for l in t2:
 
 
 
