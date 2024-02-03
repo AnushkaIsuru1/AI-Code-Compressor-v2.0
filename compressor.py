@@ -44,6 +44,7 @@ def rmvcmnt(t):
                 if ((not qut) and (a=="#")):cm=1
                 else:t4+=a
             elif (a=="\n"):cm = 0;t4+=a
+        else:t4+=a                
 
 
 
