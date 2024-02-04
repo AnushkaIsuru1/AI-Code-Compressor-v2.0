@@ -53,7 +53,7 @@ def rmvcmnt(t):
         r2 = r3
         r3 = r4
         r4 = a
-
+    return(t4)
 
 
 
