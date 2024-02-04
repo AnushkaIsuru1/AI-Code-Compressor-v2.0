@@ -47,7 +47,8 @@ def rmvcmnt(t):
         else:t4+=a                
         if (r1+r2+r3+r4+a=="<?php"):php=1
         elif (php and (r4+a=="?>")):php=0
-
+        if (not(qut) and(a in ["'",'"'])):qut=1;lqut = a
+        elif ((a == lqut) and (r4!="\\")):qut = 0
 
 
 
