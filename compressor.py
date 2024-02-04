@@ -56,6 +56,7 @@ def rmvcmnt(t):
     return(t4)
 
 def jscript(t):
+    l1=l2=l3=l4=l5=l6=l7=l8 = t1= ""
 
 
 
