@@ -49,7 +49,10 @@ def rmvcmnt(t):
         elif (php and (r4+a=="?>")):php=0
         if (not(qut) and(a in ["'",'"'])):qut=1;lqut = a
         elif ((a == lqut) and (r4!="\\")):qut = 0
-
+        r1 = r2
+        r2 = r3
+        r3 = r4
+        r4 = a
 
 
 
