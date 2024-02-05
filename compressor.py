@@ -63,7 +63,8 @@ def jscript(t):
         t1+=r
         if (fn2 and (r=="\n")):t1=t1[0:len(t1)-1]+";"
         if ( x>5 ):
-
+            l1 = t[x-1].lower()
+            l2 = t[x-2].lower()
 
         
 
