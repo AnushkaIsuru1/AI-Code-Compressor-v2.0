@@ -58,7 +58,7 @@ def rmvcmnt(t):
 def jscript(t):
     l1=l2=l3=l4=l5=l6=l7=l8 = t1= ""
     x = fn1 = fn2= 0
-
+    while (x<len(t)):
 
 
         
