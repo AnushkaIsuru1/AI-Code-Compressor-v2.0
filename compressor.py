@@ -65,7 +65,8 @@ def jscript(t):
         if ( x>5 ):
             l1 = t[x-1].lower()
             l2 = t[x-2].lower()
-
+            l3 = t[x-3].lower()
+            l4 = t[x-4].lower()
         
 
 
