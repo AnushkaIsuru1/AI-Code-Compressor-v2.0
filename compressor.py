@@ -62,6 +62,8 @@ def jscript(t):
         r = t[x]
         t1+=r
         if (fn2 and (r=="\n")):t1=t1[0:len(t1)-1]+";"
+        if ( x>5 ):
+
 
         
 
