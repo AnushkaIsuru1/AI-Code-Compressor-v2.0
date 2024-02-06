@@ -70,6 +70,7 @@ def jscript(t):
             l5 = t[x-5].lower()
             l6 = t[x-6].lower()            
         if ( x > 6 ): l7 = t[x-7].lower()
+        if ( x > 7 ): l8 = t[x-8].lower()
 
 
 
