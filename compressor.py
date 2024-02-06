@@ -67,7 +67,8 @@ def jscript(t):
             l2 = t[x-2].lower()
             l3 = t[x-3].lower()
             l4 = t[x-4].lower()
-        
+            l5 = t[x-5].lower()
+            l6 = t[x-6].lower()            
 
 
 
