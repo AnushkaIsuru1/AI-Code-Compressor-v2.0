@@ -80,7 +80,9 @@ def jscript(t):
 def rmvrepeat(t):
     x = t1 = ""
     global rpc
-
+    for y in t:
+        if not( (y in rpc) and (x==y)):t1+=y
+ 
 
 
 
