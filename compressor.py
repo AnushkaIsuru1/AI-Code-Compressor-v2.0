@@ -78,7 +78,7 @@ def jscript(t):
     return(t1)
 
 def rmvrepeat(t):
-
+    x = t1 = ""
 
 
 
