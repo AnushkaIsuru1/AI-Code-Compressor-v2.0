@@ -79,7 +79,7 @@ def jscript(t):
 
 def rmvrepeat(t):
     x = t1 = ""
-
+    global rpc
 
 
 
