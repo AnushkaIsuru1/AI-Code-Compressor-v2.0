@@ -72,7 +72,8 @@ def jscript(t):
         if ( x > 6 ): l7 = t[x-7].lower()
         if ( x > 7 ): l8 = t[x-8].lower()
         if(l6+l5+l4+l3+l2+l1+r=="<script"):fn1=1
-
+        if (fn1 and (r==">")):fn2 = 1; fn1=0
+        elif (l8+l7+l6+l5+l4+l3+l2+l1+r=="</script>"):fn2=0
 
 
 
