@@ -82,7 +82,8 @@ def rmvrepeat(t):
     global rpc
     for y in t:
         if not( (y in rpc) and (x==y)):t1+=y
- 
+        x = y
+    return t1    
 
 
 
