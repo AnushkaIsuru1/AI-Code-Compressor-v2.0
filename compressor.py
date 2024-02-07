@@ -85,6 +85,9 @@ def rmvrepeat(t):
         x = y
     return t1    
 def equalmark(t):
+    c = t1= ""
+    for x in t:
+
 
 
 
