@@ -91,7 +91,7 @@ def equalmark(t):
             if (c+x==" ="):t1 = t1[0:len(t1)-1]
             t1+=x
         c = x
-
+    return t1
 
 
 
