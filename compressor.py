@@ -89,7 +89,8 @@ def equalmark(t):
     for x in t:
         if(c+x!="= "):
             if (c+x==" ="):t1 = t1[0:len(t1)-1]
-
+            t1+=x
+        c = x
 
 
 
