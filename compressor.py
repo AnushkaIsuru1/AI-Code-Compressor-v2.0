@@ -93,6 +93,9 @@ def equalmark(t):
         c = x
     return t1
 
+def semicolan(t):
+    global skbfsm,rmafsc
+
 
 
 
