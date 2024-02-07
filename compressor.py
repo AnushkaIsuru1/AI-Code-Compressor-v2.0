@@ -87,6 +87,8 @@ def rmvrepeat(t):
 def equalmark(t):
     c = t1= ""
     for x in t:
+        if(c+x!="= "):
+
 
 
 
