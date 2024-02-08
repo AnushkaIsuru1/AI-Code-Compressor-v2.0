@@ -97,6 +97,9 @@ def semicolan(t):
     global skbfsm,rmafsc
     t1=t2=t3=c=""
     for x in t:
+        if((c in skbfsm) and (x in rmafsc)):continue
+
+
 
 
 
