@@ -100,6 +100,8 @@ def semicolan(t):
         if((c in skbfsm) and (x in rmafsc)):continue
         t1+=x
         c = x
+    c = fn1=fn2=""
+    a1=a2=a3=a4=a5=a6=a7=nme1 = ""
 
 
 
