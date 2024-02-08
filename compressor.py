@@ -95,7 +95,8 @@ def equalmark(t):
 
 def semicolan(t):
     global skbfsm,rmafsc
-
+    t1=t2=t3=c=""
+    for x in t:
 
 
 
