@@ -105,7 +105,7 @@ def semicolan(t):
     nmc = 0
     for y in t1:
         xz = " "
-
+        if (c+y=="={"):fn1 = 1
 
 
 
