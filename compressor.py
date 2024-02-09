@@ -104,7 +104,7 @@ def semicolan(t):
     a1=a2=a3=a4=a5=a6=a7=nme1 = ""
     nmc = 0
     for y in t1:
-
+        xz = " "
 
 
 
