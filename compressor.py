@@ -111,7 +111,7 @@ def semicolan(t):
         if((a1+a2+a3+a4+a5+a6+a7+c+y)=="=function"):nme1 = 1;
         if (nme1 and y=="{"):nmc+=1
         if (nme1 and y=="}"):nmc-=1
-
+        if (nme1 and nmc==0):nme1=0;xz = ";"
 
 
   
