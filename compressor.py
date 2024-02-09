@@ -110,7 +110,7 @@ def semicolan(t):
         if (fn2 and y=="}"):xz=";";fn1=fn2=0        
         if((a1+a2+a3+a4+a5+a6+a7+c+y)=="=function"):nme1 = 1;
         if (nme1 and y=="{"):nmc+=1
-
+        if (nme1 and y=="}"):nmc-=1
 
 
 
