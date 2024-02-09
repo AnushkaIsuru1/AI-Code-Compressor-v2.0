@@ -106,7 +106,7 @@ def semicolan(t):
     for y in t1:
         xz = " "
         if (c+y=="={"):fn1 = 1
-
+        if (fn1 and y==":"):fn2 = 1;
 
 
 
