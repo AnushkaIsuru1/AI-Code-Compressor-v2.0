@@ -115,7 +115,11 @@ def semicolan(t):
         if((y in rmafsc) and (c=="}")):continue
         t2+=y
         if (y=="}"):t2+=xz
-
+        a1 = a2
+        a2 = a3
+        a3 = a4
+        a4 = a5
+        a5 = a6
   
 
 
