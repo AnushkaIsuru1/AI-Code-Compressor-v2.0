@@ -114,6 +114,7 @@ def semicolan(t):
         if (nme1 and nmc==0):nme1=0;xz = ";"
         if((y in rmafsc) and (c=="}")):continue
         t2+=y
+        if (y=="}"):t2+=xz
 
   
 
