@@ -128,7 +128,9 @@ def semicolan(t):
     c = ""
     for z in t4:
         if (z==";") and (c==" "):t3 = t3[0:len(t3)-1]
-
+        t3+=z
+        c = z
+    return (t3)
   
 
 
