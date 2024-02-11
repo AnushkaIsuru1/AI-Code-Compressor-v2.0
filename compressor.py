@@ -126,7 +126,9 @@ def semicolan(t):
 
     t4 = rmvrepeat(t2)
     c = ""
+    for z in t4:
 
+  
 
 
 
