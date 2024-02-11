@@ -127,6 +127,7 @@ def semicolan(t):
     t4 = rmvrepeat(t2)
     c = ""
     for z in t4:
+        if (z==";") and (c==" "):t3 = t3[0:len(t3)-1]
 
   
 
