@@ -135,7 +135,7 @@ def semicolan(t):
 
 def code_cmpr(t,sc=0):
     t0 = equalmark(t)
-
+    t1 = rmvcmnt(t0)
 
 
     
