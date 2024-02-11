@@ -124,7 +124,8 @@ def semicolan(t):
         a7 = c
         c = y   
 
-
+    t4 = rmvrepeat(t2)
+    c = ""
 
 
 
