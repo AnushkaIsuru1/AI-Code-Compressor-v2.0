@@ -139,6 +139,9 @@ def code_cmpr(t,sc=0):
     t2 = jscript(t1)
     t3=""    
     for a in t2:
+        if (a == "\n"):
+
+
 
 
     
