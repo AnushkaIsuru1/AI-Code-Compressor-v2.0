@@ -140,7 +140,10 @@ def code_cmpr(t,sc=0):
     t3=""    
     for a in t2:
         if (a == "\n"):
-
+            if sc:t3+=";"
+            else:t3+=" "
+        elif (a=="\t"): t3+=" "
+        else:t3+=a
 
 
 
