@@ -149,6 +149,7 @@ def code_cmpr(t,sc=0):
     t6 = rmvrepeat(t5).strip()
     c = t7=""
     for x in t6:
+        if ((c==" ") and (x in skspbf)):t7= t7[0:len(t7)-1]
 
 
     
