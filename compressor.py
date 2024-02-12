@@ -144,7 +144,10 @@ def code_cmpr(t,sc=0):
             else:t3+=" "
         elif (a=="\t"): t3+=" "
         else:t3+=a
-
+    t4 = rmvrepeat(t3)
+    t5 = semicolan(t4)
+    t6 = rmvrepeat(t5).strip()
+    c = t7=""
 
 
     
