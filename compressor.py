@@ -148,6 +148,7 @@ def code_cmpr(t,sc=0):
     t5 = semicolan(t4)
     t6 = rmvrepeat(t5).strip()
     c = t7=""
+    for x in t6:
 
 
     
