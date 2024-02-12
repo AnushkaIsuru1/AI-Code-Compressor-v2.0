@@ -152,5 +152,6 @@ def code_cmpr(t,sc=0):
         if ((c==" ") and (x in skspbf)):t7= t7[0:len(t7)-1]
         t7+=x
         c = x
-
+    t8 = t7
+    return t7
     
