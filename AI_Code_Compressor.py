@@ -9,3 +9,6 @@ import ctypes
 from compressor import *
 sys32 = ctypes.windll.user32
 
+pgrnm = "CODE COMPRESSOR v.10"
+uif = 'Saira SemiCondensed SemiBold'
+cof = "menlo"
