@@ -45,3 +45,9 @@ b1w = 6
 b1h = 1
 b1px =10
 b1py = 5
+
+mw = Tk()
+mw.title(pgrnm)
+mw.configure(bg=bgc)
+mw.minsize(width = 1200,height=720)
+mw.maxsize(width = 1200,height=720)
