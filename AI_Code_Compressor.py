@@ -37,3 +37,11 @@ bgc = "#010a0a"
 hdc = gc1
 blc = "#000000"
 
+
+b1bg = bgc
+b1fg = wc1
+b1fo = ("arial",12)
+b1w = 6
+b1h = 1
+b1px =10
+b1py = 5
