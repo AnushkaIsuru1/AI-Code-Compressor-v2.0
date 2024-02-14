@@ -59,5 +59,11 @@ mw.attributes('-alpha', 0.95)
 def mwclose():
     mw.destroy()
 
+hhh = 60
+ttlbr = Frame(mw,width=1200,height=hhh,bg =bgc )
+ttlbr.pack(expand=0, fill=X)
+
+
+
 
 
