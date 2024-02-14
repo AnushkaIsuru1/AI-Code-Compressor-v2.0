@@ -67,6 +67,10 @@ def move_window(event):
     closealert()
     mw.geometry('+{0}+{1}'.format(event.x_root, event.y_root))
     
+ttlbr.bind('<B1-Motion>', move_window) 
+header = Frame(ttlbr,width=400,height=60,bg = rc3)
+header.place(x=400,y=-10)
+header.bind('<B1-Motion>', move_window)
 
 
 
