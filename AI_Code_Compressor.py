@@ -63,6 +63,13 @@ hhh = 60
 ttlbr = Frame(mw,width=1200,height=hhh,bg =bgc )
 ttlbr.pack(expand=0, fill=X)
 
+def move_window(event):
+    closealert()
+    mw.geometry('+{0}+{1}'.format(event.x_root, event.y_root))
+    
+
+
+
 
 
 
