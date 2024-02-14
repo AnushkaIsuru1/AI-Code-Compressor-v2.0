@@ -54,3 +54,10 @@ mw.maxsize(width = 1200,height=720)
 mw.geometry('1200x720+'+str(int(sys32.GetSystemMetrics(0)/2 - 600))+"+"+str(int(sys32.GetSystemMetrics(1)/2 - 350)))
 mw.overrideredirect(1)
 mw.wm_attributes("-topmost", False)
+mw.wm_attributes("-disabled", False)
+mw.attributes('-alpha', 0.95)
+def mwclose():
+    mw.destroy()
+
+
+
