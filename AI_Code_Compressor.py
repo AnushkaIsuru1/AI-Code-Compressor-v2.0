@@ -81,6 +81,9 @@ tr = Label(header,image=trimg,width=400,height=80,bg=bgc)
 tr.place(x=0,y=-15)
 tr.bind('<B1-Motion>', move_window) 
 
+nmlb = Label(header,text="CODE  COMPRESSOR", bg = hdc, fg=blc,font=(uif, 18 ),width=16,height=1,anchor="w")
+nmlb.place(x=130,y=14)
+nmlb.bind('<B1-Motion>', move_window) 
 
 
 
