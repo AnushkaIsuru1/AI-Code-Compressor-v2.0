@@ -127,3 +127,7 @@ Frame(mw,width=1200,height=wb,bg = wbc).place(x=0,y=720-wb)
 Frame(mw,width=wb,height=720,bg = wbc).place(y=0,x=0)
 Frame(mw,width=wb,height=720,bg = wbc).place(y=0,x=1200-wb)
 
+class HoverButton(tk.Button):
+    def __init__(self, master, **kw):
+        tk.Button.__init__(self,master=master,**kw)
+        self.defaultBackground = self["background"]
