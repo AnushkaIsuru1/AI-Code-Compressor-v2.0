@@ -131,3 +131,6 @@ class HoverButton(tk.Button):
     def __init__(self, master, **kw):
         tk.Button.__init__(self,master=master,**kw)
         self.defaultBackground = self["background"]
+        self.defaultForeground = self["foreground"]
+        self.bind("<Enter>", self.on_enterb1)
+        self.bind("<Leave>", self.on_leaveb1)
