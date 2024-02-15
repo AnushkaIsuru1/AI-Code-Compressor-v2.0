@@ -115,4 +115,8 @@ def clsbtnhout(e):
     clbtn2['foreground'] = rc1
     clbtn['image'] = climg
 
+clbtn.bind("<Enter>",clsbtnhover)
+clbtn.bind("<Leave>",clsbtnhout)
+clbtn2.bind("<Enter>",clsbtnhover)
+clbtn2.bind("<Leave>",clsbtnhout)
 
