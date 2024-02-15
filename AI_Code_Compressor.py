@@ -120,3 +120,6 @@ clbtn.bind("<Leave>",clsbtnhout)
 clbtn2.bind("<Enter>",clsbtnhover)
 clbtn2.bind("<Leave>",clsbtnhout)
 
+wb = 1
+wbc = gc1
+
