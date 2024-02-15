@@ -136,3 +136,6 @@ class HoverButton(tk.Button):
         self.bind("<Leave>", self.on_leaveb1)
 
     def on_enterb1(self, e):
+        self['background'] = self['highlightbackground']
+        self['foreground'] = self['highlightcolor']
+
