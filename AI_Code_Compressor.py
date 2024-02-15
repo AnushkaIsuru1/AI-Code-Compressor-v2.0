@@ -96,7 +96,14 @@ clbtn = Button(mw,bd=0,anchor=S,relief="flat",
         image=climg,width=118,height=48,command=mwclose
         )
 clbtn.place(x=795,y=0)
-
+clbtn2 = Button(mw,bd=0,anchor=S,relief="flat",
+        font=(uif, 12 ),justify=CENTER,
+        background=rc4, foreground=rc1,
+        highlightbackground=bgc,highlightcolor=wc1,
+        activebackground=rc1,activeforeground=wc1,
+        text="CLOSE",command=mwclose
+        )
+clbtn2.place(x=826,y=0)
 
 
 
