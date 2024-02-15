@@ -122,4 +122,8 @@ clbtn2.bind("<Leave>",clsbtnhout)
 
 wb = 1
 wbc = gc1
+Frame(mw,width=1200,height=wb,bg = wbc).place(x=0,y=0)
+Frame(mw,width=1200,height=wb,bg = wbc).place(x=0,y=720-wb)
+Frame(mw,width=wb,height=720,bg = wbc).place(y=0,x=0)
+Frame(mw,width=wb,height=720,bg = wbc).place(y=0,x=1200-wb)
 
