@@ -105,6 +105,11 @@ clbtn2 = Button(mw,bd=0,anchor=S,relief="flat",
         )
 clbtn2.place(x=826,y=0)
 
+def clsbtnhover(e):
+    clbtn2['background'] = rc1
+    clbtn2['foreground'] = wc1
+    clbtn['image'] = climg2
+
 
 
 
