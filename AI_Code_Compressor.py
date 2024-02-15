@@ -110,6 +110,9 @@ def clsbtnhover(e):
     clbtn2['foreground'] = wc1
     clbtn['image'] = climg2
 
-
+def clsbtnhout(e):
+    clbtn2['background'] = rc4
+    clbtn2['foreground'] = rc1
+    clbtn['image'] = climg
 
 
