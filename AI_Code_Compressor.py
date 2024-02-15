@@ -88,7 +88,14 @@ aiim = Label(header,image=aiimg,width=48,height=41,bg=hdc)
 aiim.place(x=70,y=12)
 aiim.bind('<B1-Motion>', move_window)
 
-
+clbtn = Button(mw,bd=0,anchor=S,relief="flat",
+        font=(uif, 12 ),
+        background=bgc, foreground=wc1,
+        highlightbackground=bgc,highlightcolor=wc1,
+        activebackground=bgc,activeforeground=wc1,
+        image=climg,width=118,height=48,command=mwclose
+        )
+clbtn.place(x=795,y=0)
 
 
 
