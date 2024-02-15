@@ -134,3 +134,5 @@ class HoverButton(tk.Button):
         self.defaultForeground = self["foreground"]
         self.bind("<Enter>", self.on_enterb1)
         self.bind("<Leave>", self.on_leaveb1)
+
+    def on_enterb1(self, e):
