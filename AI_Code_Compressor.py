@@ -172,4 +172,8 @@ class seloptcl(tk.Button):
             t2 = "O F F";
             bg = resc['highlightbackground']
             fg = resc['highlightcolor']
+        resc['background'] = bg
+        resc['foreground'] = fg
+        resc['text'] = t2
+        clsselfn()
 
