@@ -169,5 +169,7 @@ class seloptcl(tk.Button):
             bg = resc['activebackground']
             fg = resc['activeforeground']
         else:
-
+            t2 = "O F F";
+            bg = resc['highlightbackground']
+            fg = resc['highlightcolor']
 
