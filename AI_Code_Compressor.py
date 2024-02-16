@@ -143,3 +143,7 @@ class HoverButton(tk.Button):
         self['background'] = self.defaultBackground
         self['foreground'] = self.defaultForeground
 
+class seloptcl(tk.Button):
+    def __init__(self,master,**kw):
+        tk.Button.__init__(self,master=master,**kw)
+
