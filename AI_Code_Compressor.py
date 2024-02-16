@@ -157,3 +157,6 @@ class seloptcl(tk.Button):
         self['background'] = self['highlightbackground']
         self['foreground'] = self['highlightcolor']
 
+    def hout(self,e):
+        self['background'] = self.abg
+        self['foreground'] = self.afg
