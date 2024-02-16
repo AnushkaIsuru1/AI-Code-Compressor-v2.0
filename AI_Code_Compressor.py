@@ -163,5 +163,11 @@ class seloptcl(tk.Button):
 
     def clicked(self,e):
         x = self['text']
+        opsel['text'] = x
+        if x=="J S":
+            t2 = "O N"
+            bg = resc['activebackground']
+            fg = resc['activeforeground']
+        else:
 
 
