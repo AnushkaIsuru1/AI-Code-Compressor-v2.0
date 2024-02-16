@@ -140,4 +140,6 @@ class HoverButton(tk.Button):
         self['foreground'] = self['highlightcolor']
 
     def on_leaveb1(self, e):
+        self['background'] = self.defaultBackground
+        self['foreground'] = self.defaultForeground
 
