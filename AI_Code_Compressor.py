@@ -160,3 +160,8 @@ class seloptcl(tk.Button):
     def hout(self,e):
         self['background'] = self.abg
         self['foreground'] = self.afg
+
+    def clicked(self,e):
+        x = self['text']
+
+
