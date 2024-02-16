@@ -152,3 +152,8 @@ class seloptcl(tk.Button):
         self.bind("<Enter>", self.hover)
         self.bind("<Leave>", self.hout)
         self.bind("<Button-1>",self.clicked)
+
+    def hover(self,e):
+        self['background'] = self['highlightbackground']
+        self['foreground'] = self['highlightcolor']
+
