@@ -149,3 +149,6 @@ class seloptcl(tk.Button):
         self.abg = self['background']
         self.afg = self['foreground']
 
+        self.bind("<Enter>", self.hover)
+        self.bind("<Leave>", self.hout)
+        self.bind("<Button-1>",self.clicked)
