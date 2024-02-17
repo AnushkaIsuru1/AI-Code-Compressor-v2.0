@@ -191,7 +191,8 @@ def opnselfn():
     cssbt.place(x=230)
     jsbt.place(x=230)
     phpbt.place(x=230)
-
+    htmlbt.place(x=230)
+    closealert()
 
 
 
