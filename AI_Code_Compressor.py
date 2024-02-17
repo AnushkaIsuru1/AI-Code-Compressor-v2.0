@@ -187,3 +187,13 @@ def selopt(txt,y,com=None,tp=0,pr=mw):
     btn.place(x=-230,y=y)
     return btn
 
+def opnselfn():
+    cssbt.place(x=230)
+    jsbt.place(x=230)
+    phpbt.place(x=230)
+
+
+
+
+
+
