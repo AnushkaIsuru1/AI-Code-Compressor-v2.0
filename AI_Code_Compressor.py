@@ -200,5 +200,10 @@ def clsselfn():
     phpbt.place(x=-230)
     htmlbt.place(x=-230)
 
+class Tglbutn(tk.Button):
+    def __init__(self,master,**kw):
+
+
+
 
 
