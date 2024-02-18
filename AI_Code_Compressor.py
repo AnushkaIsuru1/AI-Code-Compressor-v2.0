@@ -219,3 +219,6 @@ class Tglbutn(tk.Button):
         closealert()
         clsselfn()
 
+def addbtn(txt,x,y,com=None,tp=0,pr=mw):
+	st = {0:{"bg":twc1,"fg":wc2,"hbg":twc4,"hfg":gc1,"abg":gc1,"afg":wc1},1:{"bg":gc6,"fg":wc2,"hbg":gc1,"hfg":wc1,"abg":gc2,"afg":bgc},2:{"bg":rc3,"fg":rc1,"hbg":rc2,"hfg":wc1,"abg":rc1,"afg":wc1}
+	}
