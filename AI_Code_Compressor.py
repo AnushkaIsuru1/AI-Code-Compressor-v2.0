@@ -213,6 +213,8 @@ class Tglbutn(tk.Button):
             t2 = "O F F";
             bg = self['highlightbackground']
             fg = self['highlightcolor']
-
+        self['background'] = bg
+        self['foreground'] = fg
+        self['text'] = t2
 
 
