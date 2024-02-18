@@ -228,3 +228,8 @@ def addbtn(txt,x,y,com=None,tp=0,pr=mw):
 		activebackground=st["abg"],activeforeground=st["afg"])
 	btn.place(x=x,y=y)
 	return btn
+
+def addtgbtn(txt,x,y,tp=0,pr=mw):
+	lb = Label(pr,text=txt,font=(uif, 10 ),width=20, height=1, anchor=W, bd = 0,relief="flat", bg=bgc, fg=wc3)
+
+        
