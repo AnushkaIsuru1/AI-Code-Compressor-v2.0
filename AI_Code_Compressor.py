@@ -236,5 +236,7 @@ def addtgbtn(txt,x,y,tp=0,pr=mw):
 	fg=wc2;
 	t = "O F F"
 	if(tp):bg = gc5;fg=bgc;t = "O N"
-
+	btn = Tglbutn(pr,text=t, font=(uif, 10 ),width=10, height=1,justify=CENTER,bd = 0,relief="flat",
+		background=bg, foreground=fg, highlightbackground=twc2, highlightcolor=wc2, activebackground=gc5,activeforeground=bgc)
+	btn.place(x=x,y=y+25);return btn;
         
