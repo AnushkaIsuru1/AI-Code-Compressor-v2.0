@@ -231,5 +231,8 @@ def addbtn(txt,x,y,com=None,tp=0,pr=mw):
 
 def addtgbtn(txt,x,y,tp=0,pr=mw):
 	lb = Label(pr,text=txt,font=(uif, 10 ),width=20, height=1, anchor=W, bd = 0,relief="flat", bg=bgc, fg=wc3)
+	lb.place(x=x,y=y)
+	bg = twc2;
+	fg=wc2;
 
         
