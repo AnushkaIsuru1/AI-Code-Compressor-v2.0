@@ -205,6 +205,10 @@ class Tglbutn(tk.Button):
         tk.Button.__init__(self,master=master,**kw)        
         self.bind("<Button-1>",self.clicked)
 
+    def clicked(self,e):
+        t2 = "O N"
+        bg = self['activebackground']
+        fg = self['activeforeground']
 
 
 
