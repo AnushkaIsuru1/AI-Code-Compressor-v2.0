@@ -209,7 +209,10 @@ class Tglbutn(tk.Button):
         t2 = "O N"
         bg = self['activebackground']
         fg = self['activeforeground']
-
+        if("O N"==self['text']):
+            t2 = "O F F";
+            bg = self['highlightbackground']
+            fg = self['highlightcolor']
 
 
 
