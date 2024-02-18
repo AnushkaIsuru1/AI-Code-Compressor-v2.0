@@ -234,5 +234,7 @@ def addtgbtn(txt,x,y,tp=0,pr=mw):
 	lb.place(x=x,y=y)
 	bg = twc2;
 	fg=wc2;
+	t = "O F F"
+	if(tp):bg = gc5;fg=bgc;t = "O N"
 
         
