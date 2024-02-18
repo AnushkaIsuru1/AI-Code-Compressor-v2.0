@@ -216,5 +216,6 @@ class Tglbutn(tk.Button):
         self['background'] = bg
         self['foreground'] = fg
         self['text'] = t2
-
+        closealert()
+        clsselfn()
 
