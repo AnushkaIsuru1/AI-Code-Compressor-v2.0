@@ -252,6 +252,9 @@ def addtxtbox(x,y,tp=0,pr=mw):
     btn.config(spacing3=10)
     return btn
     
+def gettxt(t):
+    return (t.get("1.0",END))
+
 
 
 
