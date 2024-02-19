@@ -246,7 +246,11 @@ def addtxtbox(x,y,tp=0,pr=mw):
     lb = Frame(pr,width=w, height=h,bg=tgc1)
     lb.place(x=x,y=y)
     btn = Text(lb, font=(cof, 10 ),width=62, height=13,bd = 0,relief="flat",background=bgc, foreground=wc2,padx=17,pady=10)
-
+    btn.place(x=2,y=2)
+    btn.config(spacing1=10)
+    btn.config(spacing2=10)
+    btn.config(spacing3=10)
+    return btn
     
 
 
