@@ -255,6 +255,10 @@ def addtxtbox(x,y,tp=0,pr=mw):
 def gettxt(t):
     return (t.get("1.0",END))
 
+def showalert(a,b=0):
+    clsselfn()
+    clsselfn()
+
 
 
 
