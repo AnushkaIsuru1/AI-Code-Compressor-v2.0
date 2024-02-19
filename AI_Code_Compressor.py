@@ -241,7 +241,10 @@ def addtgbtn(txt,x,y,tp=0,pr=mw):
 	btn.place(x=x,y=y+25);return btn;
         
 def addtxtbox(x,y,tp=0,pr=mw):
+    w=534
+    h=480
 
+    
 
 
 
