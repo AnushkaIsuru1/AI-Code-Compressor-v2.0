@@ -265,6 +265,12 @@ def showalert(a,b=0):
         al2['height'] = 3        
         if(b==1):alnxt.place(x=243,y = 100)
         else:alnxt2.place(x=243,y = 100)
+    
+def closealert():
+
+
+
+
 
 
 
