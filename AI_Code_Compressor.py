@@ -240,3 +240,9 @@ def addtgbtn(txt,x,y,tp=0,pr=mw):
 		background=bg, foreground=fg, highlightbackground=twc2, highlightcolor=wc2, activebackground=gc5,activeforeground=bgc)
 	btn.place(x=x,y=y+25);return btn;
         
+def addtxtbox(x,y,tp=0,pr=mw):
+
+
+
+
+
