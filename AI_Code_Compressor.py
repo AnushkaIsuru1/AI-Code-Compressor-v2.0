@@ -258,7 +258,9 @@ def gettxt(t):
 def showalert(a,b=0):
     clsselfn()
     clsselfn()
-
+    al['text'] = a
+    alf.place(x=40,y=250)
+    if(b):
 
 
 
