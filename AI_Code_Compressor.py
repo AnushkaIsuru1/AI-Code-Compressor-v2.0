@@ -267,6 +267,9 @@ def showalert(a,b=0):
         else:alnxt2.place(x=243,y = 100)
     
 def closealert():
+    al['text'] = ""
+    al2['height'] = 2
+    alf['height'] = 112
 
 
 
