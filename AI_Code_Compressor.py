@@ -289,6 +289,13 @@ def copy2():
     clsselfn()
     pyperclip.copy(compressed)
 
+def paste2():
+
+
+
+
+
+
 
 
 
