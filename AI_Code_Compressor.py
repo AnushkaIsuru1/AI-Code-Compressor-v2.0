@@ -274,6 +274,11 @@ def closealert():
     alnxt.place(x = -300, y=0)
     alnxt2.place(x = -300, y=0)
 
+def tglbutnvl(b):
+    x = b['text']
+
+
+
 
 
 
