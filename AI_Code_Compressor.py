@@ -293,6 +293,9 @@ def paste2():
     global notcompressed
     closealert()
     clsselfn()
+    x = pyperclip.paste()
+    notcompressed = x
+
 
 
 
