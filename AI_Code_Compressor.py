@@ -270,7 +270,9 @@ def closealert():
     al['text'] = ""
     al2['height'] = 2
     alf['height'] = 112
-
+    alf.place(x=40,y=-250)
+    alnxt.place(x = -300, y=0)
+    alnxt2.place(x = -300, y=0)
 
 
 
