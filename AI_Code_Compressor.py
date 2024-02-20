@@ -290,6 +290,10 @@ def copy2():
     pyperclip.copy(compressed)
 
 def paste2():
+    global notcompressed
+    closealert()
+    clsselfn()
+
 
 
 
