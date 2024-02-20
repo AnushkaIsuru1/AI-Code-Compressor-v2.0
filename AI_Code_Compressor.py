@@ -283,7 +283,11 @@ def tglbutnvl(b):
 notcompressed = ""
 compressed = ""
 
-
+def copy2():
+    global compressed    
+    closealert()
+    clsselfn()
+    pyperclip.copy(compressed)
 
 
 
