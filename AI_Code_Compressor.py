@@ -280,6 +280,11 @@ def tglbutnvl(b):
     else:x= 0
     return x
 
+notcompressed = ""
+compressed = ""
+
+
+
 
 
 
