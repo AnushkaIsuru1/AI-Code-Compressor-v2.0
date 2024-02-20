@@ -276,7 +276,9 @@ def closealert():
 
 def tglbutnvl(b):
     x = b['text']
-
+    if(x=="O N"):x = 1
+    else:x= 0
+    return x
 
 
 
