@@ -299,6 +299,9 @@ def paste2():
     if tglbutnvl(atcm):
         cmpbtn()
 
+sc0 = ["html","css","php"]
+sc1 = ["js"]
+
 
 
 
