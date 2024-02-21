@@ -308,7 +308,8 @@ def compress_with_ui(tx1,sc=0,insp=1,dp=1):
         if insp:inptxt.delete("1.0",END);inptxt.insert("1.0",tx1)
         x = code_cmpr(tx1,sc)
         compressed = x
-
+    if(dp):outtxt.delete("1.0",END);outtxt.insert("1.0",x)
+    return x
 
 
 
