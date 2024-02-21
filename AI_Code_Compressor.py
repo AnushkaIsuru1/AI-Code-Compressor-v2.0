@@ -302,6 +302,10 @@ def paste2():
 sc0 = ["html","css","php"]
 sc1 = ["js"]
 
+def compress_with_ui(tx1,sc=0,insp=1,dp=1):
+    global compressed
+    if tx1:
+
 
 
 
