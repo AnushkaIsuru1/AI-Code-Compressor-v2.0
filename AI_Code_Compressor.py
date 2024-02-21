@@ -295,6 +295,7 @@ def paste2():
     clsselfn()
     x = pyperclip.paste()
     notcompressed = x
+    inptxt.delete("1.0",END);inptxt.insert("1.0",x)
 
 
 
