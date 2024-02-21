@@ -296,7 +296,8 @@ def paste2():
     x = pyperclip.paste()
     notcompressed = x
     inptxt.delete("1.0",END);inptxt.insert("1.0",x)
-
+    if tglbutnvl(atcm):
+        cmpbtn()
 
 
 
