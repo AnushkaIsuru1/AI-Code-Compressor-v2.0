@@ -315,6 +315,9 @@ def cmpbtn():
     global notcompressed
     closealert()
     clsselfn()
+    f = open("CODE.txt","w+",encoding='utf-8')
+    f.write(notcompressed)
+    f.seek(0)   
 
 
 
