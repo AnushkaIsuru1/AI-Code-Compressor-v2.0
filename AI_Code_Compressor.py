@@ -311,7 +311,10 @@ def compress_with_ui(tx1,sc=0,insp=1,dp=1):
     if(dp):outtxt.delete("1.0",END);outtxt.insert("1.0",x)
     return x
 
-
+def cmpbtn():
+    global notcompressed
+    closealert()
+    clsselfn()
 
 
 
