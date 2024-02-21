@@ -320,7 +320,8 @@ def cmpbtn():
     f.seek(0)   
     f1 =f.read()
     f.close()
-
+    os.remove("CODE.txt")
+    compress_with_ui(f1,tglbutnvl(resc),0)
 
 
 
