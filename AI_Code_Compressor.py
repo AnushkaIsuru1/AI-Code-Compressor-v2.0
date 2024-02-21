@@ -318,7 +318,8 @@ def cmpbtn():
     f = open("CODE.txt","w+",encoding='utf-8')
     f.write(notcompressed)
     f.seek(0)   
-
+    f1 =f.read()
+    f.close()
 
 
 
