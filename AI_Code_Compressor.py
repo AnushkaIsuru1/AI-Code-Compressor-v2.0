@@ -337,7 +337,9 @@ def cmpfile(fn):
         fl = open(f,"r",encoding='utf-8')
         flt = fl.read()
         fl.close()
-     
+        inptxt.delete("1.0",END);
+        inptxt.insert("1.0",flt)
+        nt = compress_with_ui(flt,sc)        
 
 
 
