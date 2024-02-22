@@ -330,6 +330,9 @@ def cmpfile(fn):
     f = str(fn)
     ft = f.split(".")[len(f.split(".")) - 1].lower()
     sc = 0 
+    if (ft in sc1): sc = 2
+    elif (ft in sc0):sc = 1
+    if(sc):
 
 
 
