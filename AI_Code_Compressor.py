@@ -340,7 +340,10 @@ def cmpfile(fn):
         inptxt.delete("1.0",END);
         inptxt.insert("1.0",flt)
         nt = compress_with_ui(flt,sc)        
-
+        f2 = open(f, "w",encoding='utf-8')
+        f2.write(nt)
+        f2.close()
+        return 1
 
 
 
