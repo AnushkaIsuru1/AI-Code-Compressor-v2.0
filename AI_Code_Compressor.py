@@ -327,7 +327,9 @@ def cmpbtn():
 
 def cmpfile(fn):
     global sc0,sc1
-
+    f = str(fn)
+    ft = f.split(".")[len(f.split(".")) - 1].lower()
+    sc = 0 
 
 
 
