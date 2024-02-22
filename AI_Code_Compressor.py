@@ -322,7 +322,8 @@ def cmpbtn():
     f.close()
     os.remove("CODE.txt")
     compress_with_ui(f1,tglbutnvl(resc),0)
-
+    if tglbutnvl(atcl):copy2()
+    if tglbutnvl(clwd):mwclose()
 
 
 
