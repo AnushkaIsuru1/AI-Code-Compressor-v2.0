@@ -333,7 +333,11 @@ def cmpfile(fn):
     if (ft in sc1): sc = 2
     elif (ft in sc0):sc = 1
     if(sc):
-
+        sc-=1
+        fl = open(f,"r",encoding='utf-8')
+        flt = fl.read()
+        fl.close()
+     
 
 
 
