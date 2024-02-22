@@ -325,6 +325,8 @@ def cmpbtn():
     if tglbutnvl(atcl):copy2()
     if tglbutnvl(clwd):mwclose()
 
+def cmpfile(fn):
+    global sc0,sc1
 
 
 
