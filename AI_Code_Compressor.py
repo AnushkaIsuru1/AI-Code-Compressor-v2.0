@@ -345,5 +345,9 @@ def cmpfile(fn):
         f2.close()
         return 1
 
+def cmpfilebtn1():
+    clsselfn()
+    closealert()
+    showalert("FILE BACKUP BEFORE COMPRESS",1)
 
 
