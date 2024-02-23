@@ -356,5 +356,7 @@ def cmpfilebtn():
     fn = filedialog.askopenfilename()
     global sc1,sc0
     if fn:
+        f = str(fn)
+        ft = f.split(".")[len(f.split(".")) - 1].lower()
 
 
