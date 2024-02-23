@@ -350,4 +350,8 @@ def cmpfilebtn1():
     closealert()
     showalert("FILE BACKUP BEFORE COMPRESS",1)
 
+def cmpfilebtn():
+
+
+
 
