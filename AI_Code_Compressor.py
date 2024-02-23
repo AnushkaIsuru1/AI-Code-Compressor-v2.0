@@ -351,6 +351,9 @@ def cmpfilebtn1():
     showalert("FILE BACKUP BEFORE COMPRESS",1)
 
 def cmpfilebtn():
+    clsselfn()
+    closealert()
+    fn = filedialog.askopenfilename()
 
 
 
