@@ -358,5 +358,6 @@ def cmpfilebtn():
     if fn:
         f = str(fn)
         ft = f.split(".")[len(f.split(".")) - 1].lower()
-
+        if (ft in sc0) or (ft in sc1):
+ 
 
