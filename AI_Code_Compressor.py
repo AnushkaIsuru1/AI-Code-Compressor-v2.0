@@ -360,4 +360,4 @@ def cmpfilebtn():
         ft = f.split(".")[len(f.split(".")) - 1].lower()
         if (ft in sc0) or (ft in sc1):
  
-
+        else:showalert("U N S U P P O R T E D   F I L E")   
