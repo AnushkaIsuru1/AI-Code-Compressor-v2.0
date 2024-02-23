@@ -355,6 +355,6 @@ def cmpfilebtn():
     closealert()
     fn = filedialog.askopenfilename()
     global sc1,sc0
-
+    if fn:
 
 
