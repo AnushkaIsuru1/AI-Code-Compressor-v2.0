@@ -373,3 +373,5 @@ def cmpfolde():
     clsselfn()
     fd = filedialog.askdirectory()
     cprdc = 0
+    if fd:
+        for fn in os.listdir(fd):
