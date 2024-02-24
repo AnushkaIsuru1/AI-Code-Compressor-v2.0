@@ -375,3 +375,6 @@ def cmpfolde():
     cprdc = 0
     if fd:
         for fn in os.listdir(fd):
+            f = str(fn)
+            ft = f.split(".")[len(f.split(".")) - 1].lower()
+
