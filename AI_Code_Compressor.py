@@ -363,3 +363,5 @@ def cmpfilebtn():
         else:showalert("U N S U P P O R T E D   F I L E")   
     
 def cmpfolderbtn1():
+    closealert()
+    clsselfn()
