@@ -361,3 +361,5 @@ def cmpfilebtn():
         if (ft in sc0) or (ft in sc1):
             if(cmpfile(fn)):showalert("F I L E   C O M P R E S S E D")
         else:showalert("U N S U P P O R T E D   F I L E")   
+    
+def cmpfolderbtn1():
