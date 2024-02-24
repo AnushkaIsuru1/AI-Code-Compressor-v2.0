@@ -371,3 +371,5 @@ def cmpfolde():
     global sc0,sc1
     closealert()
     clsselfn()
+    fd = filedialog.askdirectory()
+    cprdc = 0
