@@ -367,3 +367,4 @@ def cmpfolderbtn1():
     clsselfn()
     showalert("FOLDER BACKUP BEFORE COMPRESS",2)
 
+def cmpfolde():
