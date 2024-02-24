@@ -380,6 +380,8 @@ def cmpfolde():
             if (ft in sc0) or (ft in sc1):
                 if(cmpfile(fd+"/"+fn)):cprdc+=1
         if(cprdc):
-   
+            if cprdc==1:st = "ONE FILE"
+            else:st = str(cprdc)+ " "+"FILES"
+            showalert(st+ " "+"COMPRESSED")
         else:showalert("THEIR AREN'T SUPPORTED FILES",2)
         
