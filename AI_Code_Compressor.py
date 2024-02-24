@@ -379,4 +379,7 @@ def cmpfolde():
             ft = f.split(".")[len(f.split(".")) - 1].lower()
             if (ft in sc0) or (ft in sc1):
                 if(cmpfile(fd+"/"+fn)):cprdc+=1
-
+        if(cprdc):
+   
+        else:showalert("THEIR AREN'T SUPPORTED FILES",2)
+        
