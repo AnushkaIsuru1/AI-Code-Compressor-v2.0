@@ -393,6 +393,8 @@ addbtn("COPY", 640,70,copy2)
 addbtn("BROWSE   FILE",839 ,70,cmpfilebtn1,1)
 addbtn("BROWSE   FOLDER", 1038,70,cmpfolderbtn1,1)
 
+resc = addtgbtn("ROW  END  SEMICOLAN",25,140)
+atcm = addtgbtn("AUTO  COMPRESS",435,140)
 
 
 
