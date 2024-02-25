@@ -395,7 +395,8 @@ addbtn("BROWSE   FOLDER", 1038,70,cmpfolderbtn1,1)
 
 resc = addtgbtn("ROW  END  SEMICOLAN",25,140)
 atcm = addtgbtn("AUTO  COMPRESS",435,140)
-
+atcl = addtgbtn("AUTO  COPY",640,140)
+clwd =addtgbtn("CLOSE  WHEN  DONE",1050,140)
 
 
 
