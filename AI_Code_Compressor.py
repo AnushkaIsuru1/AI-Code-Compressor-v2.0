@@ -398,5 +398,8 @@ atcm = addtgbtn("AUTO  COMPRESS",435,140)
 atcl = addtgbtn("AUTO  COPY",640,140)
 clwd =addtgbtn("CLOSE  WHEN  DONE",1050,140)
 
+inptxt = addtxtbox(25,220)
+outtxt = addtxtbox(640,220)
+
 
 
