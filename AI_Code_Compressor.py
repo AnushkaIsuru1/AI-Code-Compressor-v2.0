@@ -390,7 +390,8 @@ addbtn("PASTE", 25,70,paste2)
 opsel = addbtn("SELECT   FILE   TYPE", 226,70,opnselfn)
 addbtn("COMPRESS", 427,70,cmpbtn)
 addbtn("COPY", 640,70,copy2)
-
+addbtn("BROWSE   FILE",839 ,70,cmpfilebtn1,1)
+addbtn("BROWSE   FOLDER", 1038,70,cmpfolderbtn1,1)
 
 
 
