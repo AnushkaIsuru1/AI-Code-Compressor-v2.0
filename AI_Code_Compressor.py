@@ -385,3 +385,13 @@ def cmpfolde():
             showalert(st+ " "+"COMPRESSED")
         else:showalert("THEIR AREN'T SUPPORTED FILES",2)
         
+
+addbtn("PASTE", 25,70,paste2)
+opsel = addbtn("SELECT   FILE   TYPE", 226,70,opnselfn)
+
+
+
+
+
+
+
