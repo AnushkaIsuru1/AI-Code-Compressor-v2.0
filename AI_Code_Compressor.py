@@ -414,3 +414,8 @@ al.place(x=25,y=2)
 alnxt = addbtn("N  E  X  T", -243,-110,cmpfilebtn,1,pr = alf)
 alnxt2 = addbtn("N  E  X  T", -243,-110,cmpfolde,1,pr = alf)
 
+cssbt = selopt("C S S",30)
+jsbt = selopt("J S",70)
+phpbt = selopt("P H P",110)
+htmlbt = selopt("H T M L",150)
+
