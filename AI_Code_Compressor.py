@@ -411,3 +411,6 @@ al2.place(x=25,y=2)
 al = Label(alf,width=34, height=2,bg=gc8,fg=gc1,font=(uif, 25 ),justify=CENTER)
 al.place(x=25,y=2)
 
+alnxt = addbtn("N  E  X  T", -243,-110,cmpfilebtn,1,pr = alf)
+alnxt2 = addbtn("N  E  X  T", -243,-110,cmpfolde,1,pr = alf)
+
