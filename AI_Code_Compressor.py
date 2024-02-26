@@ -400,6 +400,10 @@ clwd =addtgbtn("CLOSE  WHEN  DONE",1050,140)
 
 inptxt = addtxtbox(25,220)
 outtxt = addtxtbox(640,220)
+inptxt['background'] ="#000003"
+inptxt['foreground'] = rc2
+outtxt['background'] = "#000404"
+outtxt['foreground'] = gc1
 
 
 
