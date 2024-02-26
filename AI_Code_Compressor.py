@@ -405,5 +405,7 @@ inptxt['foreground'] = rc2
 outtxt['background'] = "#000404"
 outtxt['foreground'] = gc1
 
-
+alf = Frame(mw,width=611,height=112,bg=gc1)
+al2 = Label(alf,width=34, height=2,bg=gc8,fg=gc1,font=(uif, 25 ),justify=CENTER)
+al2.place(x=25,y=2)
 
