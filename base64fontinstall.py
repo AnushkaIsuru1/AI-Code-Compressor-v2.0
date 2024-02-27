@@ -22,3 +22,6 @@ WM_FONTCHANGE = 0x001D
 GFRI_DESCRIPTION = 1
 GFRI_ISTRUETYPE = 3
 
+if not hasattr(wintypes, 'LPDWORD'):
+    wintypes.LPDWORD = ctypes.POINTER(wintypes.DWORD)
+
