@@ -16,5 +16,9 @@ gdi32 = ctypes.WinDLL('gdi32', use_last_error=True)
 
 FONTS_REG_PATH = r'Software\Microsoft\Windows NT\CurrentVersion\Fonts'
 
-
+HWND_BROADCAST = 0xFFFF
+SMTO_ABORTIFHUNG = 0x0002
+WM_FONTCHANGE = 0x001D
+GFRI_DESCRIPTION = 1
+GFRI_ISTRUETYPE = 3
 
