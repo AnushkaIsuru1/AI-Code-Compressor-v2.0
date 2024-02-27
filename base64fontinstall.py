@@ -6,3 +6,8 @@ from tkinter import *
 from ctypes import wintypes
 import base64
 from datetime import datetime
+try:
+    import winreg
+except ImportError:
+    import _winreg as winreg
+
