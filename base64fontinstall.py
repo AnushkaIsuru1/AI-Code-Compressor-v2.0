@@ -11,3 +11,6 @@ try:
 except ImportError:
     import _winreg as winreg
 
+user32 = ctypes.WinDLL('user32', use_last_error=True)
+gdi32 = ctypes.WinDLL('gdi32', use_last_error=True)
+
