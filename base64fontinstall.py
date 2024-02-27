@@ -14,3 +14,7 @@ except ImportError:
 user32 = ctypes.WinDLL('user32', use_last_error=True)
 gdi32 = ctypes.WinDLL('gdi32', use_last_error=True)
 
+FONTS_REG_PATH = r'Software\Microsoft\Windows NT\CurrentVersion\Fonts'
+
+
+
