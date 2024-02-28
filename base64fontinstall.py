@@ -36,3 +36,6 @@ user32.SendMessageTimeoutW.argtypes = (
     wintypes.LPVOID  # lpdwResult
 )
 
+gdi32.AddFontResourceW.argtypes = (
+    wintypes.LPCWSTR,) # lpszFilename
+
