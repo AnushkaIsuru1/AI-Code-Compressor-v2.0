@@ -54,6 +54,12 @@ def install_font(src_path):
     )
     shutil.copy(src_path, dst_path)
 
+    # load the font in the current session
+    if not gdi32.AddFontResourceW(dst_path):
+        os.remove(dst_path)
+        raise WindowsError('AddFontResource failed to load "%s"' % src_path)
+
+
 
 
 
