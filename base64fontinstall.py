@@ -47,3 +47,6 @@ gdi32.GetFontResourceInfoW.argtypes = (
     wintypes.DWORD)   # dwQueryType
 
 
+def install_font(src_path):
+    # copy the font to the Windows Fonts folder
+
