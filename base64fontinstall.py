@@ -25,3 +25,14 @@ GFRI_ISTRUETYPE = 3
 if not hasattr(wintypes, 'LPDWORD'):
     wintypes.LPDWORD = ctypes.POINTER(wintypes.DWORD)
 
+user32.SendMessageTimeoutW.restype = wintypes.LPVOID
+user32.SendMessageTimeoutW.argtypes = (
+    wintypes.HWND,   # hWnd
+    wintypes.UINT,   # Msg
+    wintypes.LPVOID, # wParam
+    wintypes.LPVOID, # lParam
+    wintypes.UINT,   # fuFlags
+    wintypes.UINT,   # uTimeout
+    wintypes.LPVOID  # lpdwResult
+)
+
