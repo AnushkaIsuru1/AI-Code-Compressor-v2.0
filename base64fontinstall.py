@@ -52,4 +52,12 @@ def install_font(src_path):
     dst_path = os.path.join(
         os.environ['SystemRoot'], 'Fonts', os.path.basename(src_path)
     )
+    shutil.copy(src_path, dst_path)
+
+
+
+
+
+
+
 
