@@ -49,4 +49,7 @@ gdi32.GetFontResourceInfoW.argtypes = (
 
 def install_font(src_path):
     # copy the font to the Windows Fonts folder
+    dst_path = os.path.join(
+        os.environ['SystemRoot'], 'Fonts', os.path.basename(src_path)
+    )
 
