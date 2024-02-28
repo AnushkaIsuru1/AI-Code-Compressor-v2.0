@@ -39,3 +39,11 @@ user32.SendMessageTimeoutW.argtypes = (
 gdi32.AddFontResourceW.argtypes = (
     wintypes.LPCWSTR,) # lpszFilename
 
+# http://www.undocprint.org/winspool/getfontresourceinfo
+gdi32.GetFontResourceInfoW.argtypes = (
+    wintypes.LPCWSTR, # lpszFilename
+    wintypes.LPDWORD, # cbBuffer
+    wintypes.LPVOID,  # lpBuffer
+    wintypes.DWORD)   # dwQueryType
+
+
