@@ -68,6 +68,8 @@ def install_font(src_path):
     filename = os.path.basename(dst_path)
     fontname = os.path.splitext(filename)[0]
 
+    # try to get the font's real name
+    cb = wintypes.DWORD()
 
 
 
