@@ -73,7 +73,10 @@ def install_font(src_path):
     if gdi32.GetFontResourceInfoW(
             filename, ctypes.byref(cb), None, GFRI_DESCRIPTION
     ):
-
+        buf = (ctypes.c_wchar * cb.value)()
+        if gdi32.GetFontResourceInfoW(
+                filename, ctypes.byref(cb), buf, GFRI_DESCRIPTION
+        ):
 
 
 
