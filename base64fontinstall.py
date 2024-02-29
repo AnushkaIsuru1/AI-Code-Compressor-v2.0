@@ -70,6 +70,9 @@ def install_font(src_path):
 
     # try to get the font's real name
     cb = wintypes.DWORD()
+    if gdi32.GetFontResourceInfoW(
+            filename, ctypes.byref(cb), None, GFRI_DESCRIPTION
+    ):
 
 
 
