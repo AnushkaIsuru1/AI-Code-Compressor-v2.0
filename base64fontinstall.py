@@ -59,6 +59,11 @@ def install_font(src_path):
         os.remove(dst_path)
         raise WindowsError('AddFontResource failed to load "%s"' % src_path)
 
+    # notify running programs
+    user32.SendMessageTimeoutW(
+        HWND_BROADCAST, WM_FONTCHANGE, 0, 0, SMTO_ABORTIFHUNG, 1000, None
+    )
+
 
 
 
