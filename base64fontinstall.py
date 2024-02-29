@@ -64,6 +64,9 @@ def install_font(src_path):
         HWND_BROADCAST, WM_FONTCHANGE, 0, 0, SMTO_ABORTIFHUNG, 1000, None
     )
 
+    # store the fontname/filename in the registry
+    filename = os.path.basename(dst_path)
+    fontname = os.path.splitext(filename)[0]
 
 
 
