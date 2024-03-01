@@ -94,4 +94,8 @@ def install_font(src_path):
         winreg.SetValueEx(key, fontname, 0, winreg.REG_SZ, filename)
 
 
+def main(argv):
+    for arg in argv:
+        if arg.endswith('.otf') or arg.endswith('.ttf'):
+
 
