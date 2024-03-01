@@ -88,6 +88,9 @@ def install_font(src_path):
     if is_truetype:
         fontname += ' (TrueType)'
 
+    with winreg.OpenKey(
+            winreg.HKEY_LOCAL_MACHINE, FONTS_REG_PATH, 0, winreg.KEY_SET_VALUE
+    ) 
 
 
 
