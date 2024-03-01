@@ -85,6 +85,9 @@ def install_font(src_path):
         filename, ctypes.byref(cb), ctypes.byref(is_truetype), GFRI_ISTRUETYPE
     )
 
+    if is_truetype:
+        fontname += ' (TrueType)'
+
 
 
 
