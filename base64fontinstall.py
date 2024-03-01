@@ -90,7 +90,8 @@ def install_font(src_path):
 
     with winreg.OpenKey(
             winreg.HKEY_LOCAL_MACHINE, FONTS_REG_PATH, 0, winreg.KEY_SET_VALUE
-    ) 
+    ) as key:
+        winreg.SetValueEx(key, fontname, 0, winreg.REG_SZ, filename)
 
 
 
