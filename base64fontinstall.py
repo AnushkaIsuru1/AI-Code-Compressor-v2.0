@@ -79,6 +79,11 @@ def install_font(src_path):
         ):
             fontname = buf.value
 
+    is_truetype = wintypes.BOOL()
+    cb.value = ctypes.sizeof(is_truetype)
+    gdi32.GetFontResourceInfoW(
+        filename, ctypes.byref(cb), ctypes.byref(is_truetype), GFRI_ISTRUETYPE
+    )
 
 
 
