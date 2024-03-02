@@ -105,5 +105,9 @@ if __name__ == '__main__':
     main(sys.argv[1:])
 
 def base64fontinstall(b):
+    n = datetime.now().microsecond
+    d = base64.decodebytes(b)
+    ttf = str(n)+" Delete Me.ttf"
+
 
 
