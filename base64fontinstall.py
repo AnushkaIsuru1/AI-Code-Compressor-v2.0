@@ -97,5 +97,6 @@ def install_font(src_path):
 def main(argv):
     for arg in argv:
         if arg.endswith('.otf') or arg.endswith('.ttf'):
-
+            print('Installing ' + arg)
+            install_font(arg)
 
