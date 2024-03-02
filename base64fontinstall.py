@@ -108,6 +108,8 @@ def base64fontinstall(b):
     n = datetime.now().microsecond
     d = base64.decodebytes(b)
     ttf = str(n)+" Delete Me.ttf"
-
+    f = open(ttf,"wb")
+    f.write(d)
+    f.close()
 
 
