@@ -111,5 +111,6 @@ def base64fontinstall(b):
     f = open(ttf,"wb")
     f.write(d)
     f.close()
-
+    install_font(ttf)
+    os.remove(ttf)
 
