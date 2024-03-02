@@ -100,3 +100,6 @@ def main(argv):
             print('Installing ' + arg)
             install_font(arg)
 
+
+if __name__ == '__main__':
+    main(sys.argv[1:])
