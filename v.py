@@ -27,7 +27,9 @@ VSVersionInfo(
   kids=[
     StringFileInfo(
       [
-
+      StringTable(
+       
+       ), 
 
   ]
 )
