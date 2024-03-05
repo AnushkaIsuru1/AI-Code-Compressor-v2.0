@@ -25,3 +25,6 @@ VSVersionInfo(
     date=(0, 0)
     ),
   kids=[
+    StringFileInfo(
+
+)
