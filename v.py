@@ -15,6 +15,9 @@ VSVersionInfo(
     # The operating system for which this file was designed.
     # 0x4 - NT and there is no need to change it.
     OS=0x40004,
+    # The general type of file.
+    # 0x1 - the file is an application.
+    fileType=0x1,
 
 
     ),
