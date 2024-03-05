@@ -26,5 +26,8 @@ VSVersionInfo(
     ),
   kids=[
     StringFileInfo(
+      [
 
+
+  ]
 )
