@@ -24,3 +24,4 @@ VSVersionInfo(
     # Creation date and time stamp.
     date=(0, 0)
     ),
+  kids=[
