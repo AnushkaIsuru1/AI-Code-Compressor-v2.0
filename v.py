@@ -18,6 +18,8 @@ VSVersionInfo(
     # The general type of file.
     # 0x1 - the file is an application.
     fileType=0x1,
-
+    # The function of the file.
+    # 0x0 - the function is not defined for this fileType
+    subtype=0x0,
 
     ),
