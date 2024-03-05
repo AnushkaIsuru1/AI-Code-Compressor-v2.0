@@ -10,6 +10,8 @@ VSVersionInfo(
     prodvers=(2, 0, 0, 0),
     # Contains a bitmask that specifies the valid bits 'flags'r
     mask=0x3f,
+    # Contains a bitmask that specifies the Boolean attributes of the file.
+    flags=0x0,
 
 
 
