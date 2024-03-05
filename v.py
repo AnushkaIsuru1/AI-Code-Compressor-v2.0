@@ -12,7 +12,9 @@ VSVersionInfo(
     mask=0x3f,
     # Contains a bitmask that specifies the Boolean attributes of the file.
     flags=0x0,
-
+    # The operating system for which this file was designed.
+    # 0x4 - NT and there is no need to change it.
+    OS=0x40004,
 
 
     ),
