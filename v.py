@@ -2,4 +2,10 @@
 #
 # For more details about fixed file info 'ffi' see:
 # http://msdn.microsoft.com/en-us/library/ms646997.aspx
-VSVersionInfo()
+VSVersionInfo(
+  ffi=FixedFileInfo(
+
+
+
+
+    ),
