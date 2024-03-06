@@ -38,6 +38,6 @@ VSVersionInfo(
         StringStruct(u'ProductName', u'AI Code Compressor'),
         StringStruct(u'ProductVersion', u'2.0')])
       ]), 
-
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
   ]
 )
