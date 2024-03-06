@@ -28,7 +28,7 @@ VSVersionInfo(
     StringFileInfo(
       [
       StringTable(
-       
+        u'040904b0',
        ), 
 
   ]
