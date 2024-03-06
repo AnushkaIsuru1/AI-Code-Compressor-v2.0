@@ -30,6 +30,7 @@ VSVersionInfo(
       StringTable(
         u'040904b0',
         [StringStruct(u'CompanyName', u'AI'),
+        StringStruct(u'FileDescription', u'Code Compressor - CSS HTML JS PHP'),
 
       ]), 
 
