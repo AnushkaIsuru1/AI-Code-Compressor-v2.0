@@ -35,7 +35,7 @@ VSVersionInfo(
         StringStruct(u'InternalName', u'Code Compressor'),
         StringStruct(u'LegalCopyright', u'AI © 2021'),
         StringStruct(u'OriginalFilename', u'AI Code Compressor.exe'),
-
+        StringStruct(u'ProductName', u'AI Code Compressor'),
 
       ]), 
 
