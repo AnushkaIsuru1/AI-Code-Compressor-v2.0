@@ -31,6 +31,8 @@ VSVersionInfo(
         u'040904b0',
         [StringStruct(u'CompanyName', u'AI'),
         StringStruct(u'FileDescription', u'Code Compressor - CSS HTML JS PHP'),
+        StringStruct(u'FileVersion', u'2.1'),
+        StringStruct(u'InternalName', u'Code Compressor'),
 
       ]), 
 
