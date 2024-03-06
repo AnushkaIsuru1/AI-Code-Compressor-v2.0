@@ -29,7 +29,9 @@ VSVersionInfo(
       [
       StringTable(
         u'040904b0',
-       ), 
+        [StringStruct(u'CompanyName', u'AI'),
+
+      ]), 
 
   ]
 )
