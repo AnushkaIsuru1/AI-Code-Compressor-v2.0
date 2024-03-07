@@ -4,3 +4,7 @@ pip installer pyinstaller
 Copmfile 1
 pyinstaller 1.py
 
+
+Copmfile 2
+pyinstaller -w 1.py
+
