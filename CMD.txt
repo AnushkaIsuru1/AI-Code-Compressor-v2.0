@@ -1,2 +1,6 @@
 pip installer pyinstaller
 #get lib
+
+Copmfile 1
+pyinstaller 1.py
+
