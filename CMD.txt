@@ -8,3 +8,8 @@ pyinstaller 1.py
 Copmfile 2
 pyinstaller -w 1.py
 
+
+Copmfile 3
+pyinstaller -F 1.py
+# comfile to one files
+
