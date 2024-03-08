@@ -24,3 +24,7 @@ pyinstaller -w 1.py
 # Non console
 
 
+Copmfile 5
+pyinstaller -w -F -i 1.ico 1.py
+# All attributes
+
