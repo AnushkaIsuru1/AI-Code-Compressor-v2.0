@@ -28,3 +28,7 @@ Copmfile 5
 pyinstaller -w -F -i 1.ico 1.py
 # All attributes
 
+Copmfile 6
+PyInstaller -F -w -i 1.ico --version-file v.py 1.py
+# All attributes with give product specs
+
