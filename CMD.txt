@@ -13,3 +13,8 @@ Copmfile 3
 pyinstaller -F 1.py
 # comfile to one files
 
+
+Copmfile 4
+pyinstaller -i 1.ico 1.py
+# Attach Icon
+
