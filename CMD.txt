@@ -32,3 +32,5 @@ Copmfile 6
 PyInstaller -F -w -i 1.ico --version-file v.py 1.py
 # All attributes with give product specs
 
+
+PyInstaller -F -w --uac-admin -i 1.ico --version-file v.py AI Code Compressor.py
