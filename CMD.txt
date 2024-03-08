@@ -18,3 +18,9 @@ Copmfile 4
 pyinstaller -i 1.ico 1.py
 # Attach Icon
 
+
+Copmfile 5
+pyinstaller -w 1.py
+# Non console
+
+
