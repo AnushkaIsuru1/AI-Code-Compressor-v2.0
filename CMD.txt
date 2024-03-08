@@ -37,3 +37,4 @@ PyInstaller -F -w --uac-admin -i 1.ico --version-file v.py AI Code Compressor.py
 
 vibernet sreame
 
+--uac-admin
